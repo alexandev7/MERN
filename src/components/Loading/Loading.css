@@ -1,0 +1,8 @@
+div.Loading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 84%;
+    flex: 1 1 auto;
+    justify-content: center;
+}

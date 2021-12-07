@@ -1,0 +1,53 @@
+.dashboard{
+    margin-top: 25px;
+}
+.dashboardItem{
+    background: gray;
+    margin: 0px 300px 25px 300px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.itemLine{
+    padding-left: 12px;
+}
+
+div.dashboard.detailed{
+    overflow: unset;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+img.detailed-image{
+
+    max-width: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+    max-height: 100%;
+}
+
+div.ImageDetails{
+    height: 100%;
+}
+
+div.dashboard.loading{
+    height: 100%;
+    background-color: white;
+}
+
+button.like-button{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+div.like-section{
+    display: flex;
+    justify-content: end;
+    margin: 0 21%;
+}

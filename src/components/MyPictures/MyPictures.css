@@ -1,0 +1,39 @@
+div.search-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+div.search-section form input[type="submit"] {
+    display: block;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+form.picture-form{
+    display:flex;
+}
+
+div.search-section form input[type="text"] {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     margin-right: 15px;
+    padding-left: 10px;
+}
+
+div.search-section form input[type="text"]:focus {
+    outline-width: 0;
+}
+
+div.MyPictures{
+    height: 100%;
+}

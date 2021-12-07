@@ -1,0 +1,11 @@
+div.title{
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-size: 45px;
+  margin-top: 25px;
+}
+
+div.title.subtitle{
+  margin-top: 96px;
+}

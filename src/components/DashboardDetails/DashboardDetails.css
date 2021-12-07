@@ -1,0 +1,47 @@
+.dashboard-details{
+    max-height: 75vh;
+    overflow: scroll;
+    background: black;
+    padding: 30px;
+    margin: 25px 21%;
+    border-radius: 25px;
+}
+.dashboardItem-detail-listed{
+    background: gray;
+    margin: 26px 0px 2px 0px;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.itemLine-details{
+    padding-left: 0;
+    font-size: 19px;
+    position: relative;
+    bottom: 37px;
+}
+
+.itemLine-title-detailed{
+    padding-left: 0;
+    font-size: 25px;
+    position: relative;
+    bottom: 37px;
+    font-weight: 900;
+}
+
+.itemLine-number-detailed{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+    background: lightgray;
+    font-size: 54px;
+    font-weight: 900;
+    border: solid 10px black;
+    bottom: 62px;
+    left: 0px;
+}

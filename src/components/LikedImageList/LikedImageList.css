@@ -1,0 +1,40 @@
+div.liked-image-result{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 42vh;
+    overflow: scroll;
+    background: lightgray;
+    padding: 0px 30px 30px 30px;
+    margin: 5px 25%;
+    border-radius: 25px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+div.liked-image-result::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+div.liked-image-result div.image-line{
+    margin: 25px 0px 7px 0px;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    height: 44%;
+    width: 50%;
+}
+
+div.liked-image-result div.image-line:hover{
+    cursor: pointer;
+}
+
+img.liked-image-thumbnail{
+    border-radius: 20px;
+    height: 100%;
+    max-width: 98%;
+}

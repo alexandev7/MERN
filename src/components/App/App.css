@@ -1,0 +1,25 @@
+li.nav-item {
+  margin: 0px 15px
+}
+
+li.nav-item a {
+  text-decoration: none;
+  color: black
+}
+
+img.profile-image-icon {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+
+li.profile-icon{
+  margin-left: 15px;
+  margin-right: 8px;
+}
+
+div.App{
+  height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,13 @@
+div.field{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+div.field input{
+    width: 315px;
+}
+
+
